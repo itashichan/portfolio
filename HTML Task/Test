@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HTML Entities</title>
+</head>
+
+<body>
+	<p>Kevin says, &quot;Use entities for &gt; &amp; &lt;.&quot;</p>
+	<p>Other entities include...
+	<ul>
+		<li>copyright: &copy;</li>
+		<li>euro: &euro;</li>
+		<li>cent: &cent;</li>
+	</ul>
+	</p>
+</body>
+</html>
