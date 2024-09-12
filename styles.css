@@ -69,6 +69,16 @@ div.container {
 }
 .scale-down {object-fit: scale-down;}
 
+.hidden {display: none;}
+.block {display: block;}
+
+#pg1, #pg2, #pg3, #pg4 {
+  display: none;
+}
+#pg1:target, #pg2:target, #pg3:target, #pg4:target {
+  display: block;
+}
+
 
 
 /* CSS HEX */
