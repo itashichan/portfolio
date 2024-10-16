@@ -33,11 +33,12 @@ a:hover {
 	flex-direction: row;
 	height: auto;
 	width: 80%;
-	margin:auto;
+	margin-left: 250px;
 	padding: 50px;
 	justify-content: center;
-	align-items: top;
 	background-color:#FFF7EB;
+	scroll-snap-type: y mandatory;
+	scroll-margin-top: 120px;
 }
 .footer {
 	height:100px;
@@ -90,6 +91,7 @@ div.container {
 
 #pg1, #pg2, #pg3, #pg4 {
   display: none;
+  
 }
 #pg1:target, #pg2:target, #pg3:target, #pg4:target {
   display: block;
@@ -326,6 +328,63 @@ img.hover-shadow {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+ /* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #FFE3DC;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  text-align: center;
+  display: block;
+ /* color: #423535;*/
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #f7a9a8;
+  color: white;
+}
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 100px;
+  padding: 1px 16px;
+  max-height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
 
 /* CSS HEX */
