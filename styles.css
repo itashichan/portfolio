@@ -89,11 +89,11 @@ div.container {
 .hidden {display: none;}
 .block {display: block;}
 
-#pg1, #pg2, #pg3, #pg4 {
+#pg1, #pg2, #pg3, #pg4, #pg5 {
   display: none;
   
 }
-#pg1:target, #pg2:target, #pg3:target, #pg4:target {
+#pg1:target, #pg2:target, #pg3:target, #pg4:target, #pg5:target {
   display: block;
 }
 
