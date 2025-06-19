@@ -9,11 +9,32 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
+<style>
+p {
+	font-size:14pt;
+	padding:50px;
+}	
+.contents {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #F7A9A8; 
+	border-radius: 5px; 
+	padding:25px; 
+	margin:auto;
+}
 
+@media (max-width: 800px) {
+  .contents {
+    flex-direction: column;
+  }
+}
+</style>
 <body>
 <nav class="mynavbar navbar-expand-sm sticky-top">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="index.html"><img src="logo.png" alt="Logo" style="width:90px;" class="float-start"></a>
+		<a class="navbar-brand" href="index.html"><img src="Images/sakilogo.jpg" alt="Logo" style="width:68px;" class="float-start"><img src="Images/logo.png" alt="Logo" style="width:90px;" class="float-start"></a>
 		<h3 style="padding-top:30px;">&#9734; <a href="index.html">Home</a> &#9733; <a href="portfolio.html">CS Portfolio</a> &#9734; <a href="gallery.html">Gallery</a> &#9733; <a href="blog.html">Blog</a> &#9734;</h3>
 	    <!--<form class="d-flex float-end" style="margin-top:-40px;">
         <input class="form-control me-2" type="text" placeholder="Search">
@@ -23,36 +44,49 @@
 	</nav>
 <br>
 	<div class="col-sm ps-5 pe-5">
-	<h1>Click Start Portfolio</h1>
-	<p style="text-align:left;">This page in particular is designed to demonstrate the skills I learnt on the Click Start course.<br>
-	The Digital Marketing Strategy document outlines the direction I could take my art brand's social media in order to build an audience of comic readers, and the banner images below have been used to promote my work at an online event.<br>
-	The hand-drawn wireframe and Figma prototype are the earliest forms of this website, documenting the process and changes it went through.</p>
+	<h1>Click Start Portfolio and Design Tests</h1><br>
+	
 	<div class="container-sm">
 	<div style="border: 2px solid #F7A9A8; border-radius: 5px; padding:25px;">
+	<p style="text-align:left; padding:15px;">This section demonstrates the skills I learnt on the Click Start course.<br>
+	The Digital Marketing Strategy document outlines the direction I could take my art brand's social media in order to build an audience of comic readers, and the banner images below have been used to promote my work at an online event.<br>
+	The hand-drawn wireframe and Figma prototype are the earliest forms of this website, documenting the process and changes it went through.</p>
 	<h4><i class="material-icons" style="font-size:30px;">file_download</i><a href= "Digital Marketing Strategy Template.docx.odt"> Digital Marketing Strategy (Download .ODT)</a><br>
 	<i class="material-icons" style="font-size:30px;">image</i><a id="myBtn" href="#" onclick="return false;"> Website Wireframe</a><br>
-	<img src="figma.svg" height="30px;">
+	<img src="Images/figma.svg" height="30px;">
 	 <a href="https://www.figma.com/proto/yeoCKpGc89DCBga2ycGxWR/Project-Prototype?node-id=1-2&starting-point-node-id=1%3A2&t=pBzGkYRhnqwwPiiO-1" target="_blank"> Figma Prototype</a><br>
 	 <!--<i class="material-icons" style="font-size:30px;">email</i><a href="mailto:natashadown@gmail.com"> Email</a><br></h4>-->
 	 <br>
 	 <div style="margin:auto; display:flex; justify-content:center;">
-		<a target="_blank" href="illustbanner.png"><img src="illustbanner.png"; style="max-height:250px;"></a>
-		<a target="_blank" href="ccon24.png"><img src="ccon24.png"; style="max-height:250px; padding-left:25px;"></a></div>
+		<a target="_blank" href="illustbanner.png"><img src="Images/illustbanner.png"; style="max-height:250px;"></a>
+		<a target="_blank" href="ccon24.png"><img src="Images/ccon24.png"; style="max-height:250px; padding-left:25px;"></a></div>
 	 </div>
 	 <br>
-	 <p>The two ads below (for <a target="_blank" href="https://join1440.com/">1440</a> and <a target="_blank" href="https://barestep.com/products/2?pb=0">Barestep</a>) were created as part of a trial task for a job application.</p>
-	 <div class="container-sm"><div style="border: 2px solid #F7A9A8; border-radius: 5px; padding:25px; margin:auto; display:flex; justify-content:center;">
-		<a target="_blank" href="1440_Static_1.png"><img src="1440_Static_1.png"; style="max-height:500px;"></a>
-		<a target="_blank" href="Barestep_Static_1.png"><img src="Barestep_Static_1.png"; style="max-width:500px; padding-left:40px;"></a></div>
+
+<div class="contents">
+		<p>This interface prototype was created as an application design task for <a target="_blank" href="https://buzzd8.com/">Buzzd8.</a><br> The brief was to create one of three types of pages for a "confessions" app and to take design inspiration from the video game Cult of the Lamb. I chose the thread view because it gave more opportunity to include a range of features, such as the reaction emoji faces, which are modelled on the cartoony CotL characters. The colour scheme and scribbly effect on many assets are also inspired by the game.<br>
+		<br>No feedback was received.</p>
+		<a target="_blank" href="Images/buzzd8_CotL_Insp_Design_Task.png"><img src="Images/buzzd8_CotL_Insp_Design_Task.png";></a>
+</div><br>
+<div class="contents">
+		<a target="_blank" href="Images/1440_Static_1.png"><img src="Images/1440_Static_1.png"; style="max-width:100%;"></a>
+		<a target="_blank" href="Images/Barestep_Static_1.png"><img src="Images/Barestep_Static_1.png"; style="max-width:100%; padding-left:40px;"></a>
+		<p>These two ads (for <a target="_blank" href="https://join1440.com/">1440</a> and <a target="_blank" href="https://barestep.com/products/2?pb=0">Barestep</a>) were created as part of a trial task for a job applied to at <a target="_blank" href="https://www.adcrate.co/">Adcrate</a>. I was given an image to base each on, the website for the company it was for, and instructions to create it with Canva. In all honesty, I felt that the 1440 one didn't really reflect the branding on its website, but this is a close representation of the meme-style image given in the brief.<br>
+		<br>No feedback was received.</p><br>
+</div><br>
+<div class="contents">
+		<p>This illustration was for an application to <a target="_blank" href="https://cognitoedu.org/home">Cognito Education</a> who produce high school science revision materials.<br>The brief was to create a labelled vector infographic of a plant in a pot, that matched their art style, in no more than 15 minutes.
+		<br>No specific feedback was received.</p>
+		<a target="_blank" href="Images/Cognito_Education_15min_Test.jpg"><img src="Images/Cognito_Education_15min_Test.jpg" style="max-width:100%;"></a>
+</div><br>
 	 </div>
 	 </div>
 	 </div>
-	 <br>
 	 
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close close-move">&times;</span>
-    <img src="wireframe.jpg" alt="The original wireframe of this site" width="100%"</img>
+    <img src="Images/wireframe.jpg" alt="The original wireframe of this site" width="100%"</img>
     <div id="caption" class="caption-container" style="background-color:white" >The original wireframe of this site.</div>
   </div>
 </div>
@@ -82,7 +116,7 @@ window.onclick = function(event) {
 	 
 <footer class="footer pt-3 pb-1">
 	&copy;Natasha Down 2024
-	<p style="font-size:30px";>
+	<p style="font-size:30px; padding:0px;">
 	<a target="_blank" href="https://www.linkedin.com/in/natasha-down-602b44320/"><i class="fa fa-linkedin-square"></i></a>
 	<a target="_blank" href="https://itashichan.tumblr.com"><i class="fa fa-tumblr-square"></i></a>
 	<a target="_blank" href="https://x.com/itashichan"><i class="fa fa-twitter-square"></i></a>
