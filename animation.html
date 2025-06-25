@@ -29,9 +29,8 @@ p {
 .contents > div {  
   border-radius: 5px;
   padding:15px;
-  margin:auto;
-  position: relative;
 }
+
 img:hover {
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -40,9 +39,13 @@ img {
 	object-fit: cover;
 	max-width:100%;
 }
+
 @media (max-width: 800px) {
   .contents {
     flex-direction: column;
+  }
+  img {
+	  object-fit:contain;
   }
 }
 </style>
@@ -61,13 +64,13 @@ img {
 <div class="contents">
 	<div class="col-sm">
 		<div class="polaroid2">
-		<a target="_blank" href="Images/eyes.gif"> <img src="Images/eyes.gif" class="contain cursor hover-shadow" alt="Eyes GIF" style="max-width:550px; height:250px;"></a>
+		<a target="_blank" href="Images/eyes.gif"> <img src="Images/eyes.gif"  alt="Eyes GIF" style="max-width:550px; height:250px;"></a>
 		</div>
 	</div>
 	
 	<div class="col-sm">
 		<div class="polaroid2">
-		<a target="_blank" href="Images/pixels.gif"><img src="Images/pixels.gif" class="contain cursor hover-shadow" alt="Pixels GIF" style="max-width:550px; height:250px;" ></a>
+		<a target="_blank" href="Images/pixels.gif"><img src="Images/pixels.gif"  alt="Pixels GIF" style="max-width:550px; height:250px;" ></a>
 		</div>
 	</div>
 </div>
@@ -80,7 +83,8 @@ img {
 
 
 <div class="contents">
-	<img src="Images/twisterstoryboard.jpg" style="max-width:600px; margin:50px;" alt="Twister Storyboard Excerpt"><p style="padding:15px;">In the first year of my BA, I animated a lyric video for an excerpt of the opening song to my favourite video game, <i>The World Ends With You.</i> (Sound on for this one!)
+	<a target="_blank" href="Images/twisterstoryboard.jpg"><img src="Images/twisterstoryboard.jpg" style="max-width:650px; margin:20px;" alt="Twister Storyboard Excerpt"></a>
+	<p style="padding:15px;">In the first year of my BA, I animated a lyric video for an excerpt of the opening song to my favourite video game, <i>The World Ends With You.</i> (Sound on for this one!)
 	<br>I managed to track down part of the pencilled storyboard as well.</p>
 </div>
 <div class="contents" style="flex-direction:column">
@@ -91,7 +95,7 @@ img {
 <div class="contents">
 	<p>In third year, a fellow student commissioned me to draw the storyboards for his video project.
 	<br><a href="Year X Storyboard.pdf"> You can view all 8 pages in detail by downloading the PDF here. <i class="material-icons" style="font-size:30px;">file_download</i></a></p>
-	<img src="Images/yearXstoryboard04.jpg" alt="Page 4 of the Year X Storyboard" style="max-width: 60%; margin:10px;">
+	<a target="_blank" href="Images/yearXstoryboard04.jpg"><img src="Images/yearXstoryboard04.jpg" alt="Page 4 of the Year X Storyboard" style="max-width: 650px; margin:20px;"></a>
 </div>
 
 <br>
