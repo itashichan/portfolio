@@ -76,7 +76,7 @@ div.polaroid {
   }
 
 div.container {
-  padding: 20px;
+  padding: 5px;
 }
 .fill {object-fit: fill;}
 .contain {object-fit: contain;}
