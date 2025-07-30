@@ -16,7 +16,7 @@ if (empty($error_message)) {
         $mail->Host       = 'smtp.gmail.com';         // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                     // Enable SMTP authentication
         $mail->Username   = 'natashadownspare@gmail.com';   // Your full Gmail address
-        $mail->Password   = 'urdh bcam fncx jbvr';    // The 16-digit App Password you generated
+        $mail->Password   = 'urdhbcamfncxjbvr';    // The 16-digit App Password you generated
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
