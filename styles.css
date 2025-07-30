@@ -5,19 +5,43 @@ body {
 	height:100px;
 	width:100%;
 	background-color:#FFE3DC;
-	color:#A2AD91;
+}
+.navtext {
+	color: #a2ad91;
+	font-family: Quicksand, Cabin Sketch, serif;
 	text-align:center;
+	padding-top:30px;
 }
-h1, h2 {
-	color:#A2AD91;
-	font-family:sans-serif;
+
+@media only screen and (max-width: 600px) {
+   .navtext {
+   font-size:22px;
+   padding-top:20px;
+  }
 }
-.blogtext {text-align:left;
+
+h1 {
+	color:#F7A9A8;
+	font-family: Bitter, Merriweather, Playfair Display, serif;
+}
+
+h2 {
+	color: #a2ad91;
+	font-family:  Amatic SC, Quicksand, Cabin Sketch, serif;
+}
+
+h3 {
+	color: #a2ad91;
+	font-family: Quicksand, Cabin Sketch, serif;
+}
+
+.blogtext {
+	text-align:left;
 }
 
 p, li {
 	color:#423535;
-	font-family:sans-serif;
+	font-family:Poppins, Nunito, Inter, Montserrat, sans-serif;
 	}
 p {
 	text-align:center;
