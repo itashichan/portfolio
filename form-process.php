@@ -21,8 +21,8 @@ if (empty($error_message)) {
         $mail->Port       = 465;
 
         // --- Recipients ---
-        $mail->setFrom('your-email@gmail.com', 'Website Contact Form'); // Must be your Gmail address
-        $mail->addAddress('your-email@gmail.com', 'Your Name');         // The address emails are sent TO
+        $mail->setFrom('natashadown@gmail.com', 'Website Contact Form'); // Must be your Gmail address
+        $mail->addAddress('natashadown@gmail.com', 'Natasha Down');         // The address emails are sent TO
         $mail->addReplyTo($email, $name); // So you can reply directly to the user
 
         // --- Content ---
